@@ -268,7 +268,7 @@ def read_query(connection, query):
     except Error as err:
         print(f"Error: '{err}'")
 
-connection = create_db_connection("localhost", "root", "Mason703450!-cmu2025!", "CLB")
+connection = create_db_connection("localhost", "[password]", "CLB")
 
 # create/run queries
 # id_tester("20963")
